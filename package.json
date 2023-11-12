@@ -4,7 +4,7 @@
   "description": "Api feita como exemplo para testes com os alunos",
   "main": "index.js",
   "engines": {
-    "node": "14.x"
+    "node": "18.x"
   },
   "scripts": {
     "start": "nodemon --inspect ./app.js",

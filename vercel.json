@@ -8,8 +8,14 @@
     ],
     "routes": [
         {
-            "src": "/(.*)",
+            "src": "(.*)",
             "dest": "routes.js"
         }
-    ]    
+    ],
+    "rewrites": [
+        {
+            "source": "(.*)",
+            "destination": "/"
+        }
+    ]
 }
